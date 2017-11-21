@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#696969"
+        android:src="@drawable/img" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yoshi"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:id="@+id/textView" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Come to us and enjoy delicious sushi"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:layout_below="@id/textView"
+        android:textSize="30dp"
+        android:id="@+id/text"
+         />
+
+    <TextView
+        android:id="@+id/adress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:text="We are at:"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="bul. Shevchenka,205"
+        android:layout_marginBottom="63dp"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Contact with us:"
+        android:textColor="#000000"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="15dp" />
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="+38(068)4690590"
+        android:layout_marginBottom="10dp"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+
+
+
+</RelativeLayout>
